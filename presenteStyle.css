@@ -50,7 +50,8 @@
 .par {
   display: inline-block;
   font-size: 2rem;
-  margin: 1%;
+  margin: 1% 5%;
+  text-align: justify;
 }
 
 .subTitle {
@@ -59,7 +60,7 @@
 }
 
 .cita {
-  margin: 2%;
+    margin: 1% 5%;
   display: inline-block;
   font-size: 2rem;
   border-left: 4px solid var(--cor2);
