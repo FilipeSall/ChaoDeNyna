@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'reisenberg';
+    src: url('./assets/fonts/Reisenberg.otf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1:#2c2c2c;
+    --cor2:#f23b32;
+    --cor3:#f2f3f7;
+}
+body{
+    overflow-x: hidden;
+    color: var(--cor1);
+}
+
+
+.mainSection{
+    height: 115vh;
+    width: 100vw;
+    background-image: url('./assets/image/Foto3.jpg');
+    background-position:left top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+.mainSection > h1{
+    margin-top: 5%;
+    font-size: 6rem;
+    font-family: 'reisenberg';
+    font-weight: normal;
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    background-image: url(assets/image/chaoTopo.png);
+}
+
+
+.mainSection > p {
+    font-size: 2rem;
+    padding: 1%;
+    margin-left: 7%;
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.btns{
+    margin:10% 100%;
+}
+
+.btn, .expedienteBtn {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 5%;
+    width: 20vw;
+    margin: 10% 100%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    font-size: 2rem;
+    margin: 4% 150%;
+    background: rgba( 255, 255, 255, 0.25 );
+    backdrop-filter: blur( 50px );
+    -webkit-backdrop-filter: blur( 50px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    box-shadow: 1px 1px 1px grey;
+    transition: 0.5s;
+}
+
+.miniMainSection{
+    display: none;
+}
+
+.btn:hover{
+    background-color: #9ba5c9;
+    transition: 1s;
+    margin-left: 140%;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 668px){
+
+    .mainSection{
+        display: none;
+    }
+    .miniMainSection{
+        display: block;
+        text-align: center;
+        margin-top: 5%;
+        font-size: 6rem;
+    }
+    .miniMainSection > p {
+        font-size: 2rem;
+        margin: 5%;
+        font-style: italic;
+    }
+    .imgMini{
+        width: 100%;
+    }
+    .miniMainSection > nav {
+        width: 100%;
+        height: 20vh;
+        margin: 0;
+    }
+    .btnsMini{
+        color: var(--cor1);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .btnMini{
+        text-decoration: none;
+        color: var(--cor1);
+        font-size: 1.5rem;
+        list-style: none;
+        background-color: var(--cor1);
+        color:#f2f3f7;
+        margin: 1% 2%;
+        border-radius: 4px;
+        padding: 1%;
+        width: 25%;
+    }
+}

@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--cor1);
+  background: #f2f3f7;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+:root {
+  --cor1: #2c2c2c;
+  --cor2: #f23b32;
+  --cor3: #f2f3f7;
+}
+
+.fundoTop {
+  background-image: url("./assets/image/chaoTopo.png");
+  width: 100vw;
+  height: 20vh;
+  background-size: cover;
+  background-position: bottom;
+  opacity: 0.9;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.pic {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+  flex-direction: column;
+}
+
+.imgPag {
+  margin-top: 5%;
+  margin-bottom: 1% ;
+  box-shadow: 1px 1px 3px black;
+}
+
+.textImg {
+  text-align: center;
+  font-style: italic;
+}
+
+.par {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 1%;
+}
+
+.subTitle {
+  font-size: 3rem;
+  margin: 1% 5%;
+}
+
+.cita {
+  margin: 2%;
+  display: inline-block;
+  font-size: 2rem;
+  border-left: 4px solid var(--cor2);
+  padding: 1%;
+}
+
+audio {
+  margin-left: 25%;
+  margin-top: 2%;
+  width: 50vw;
+  border: 1px solid var(--cor1);
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px var(--cor1);
+}
+
+.fundoBot {
+  background-image: url("./assets/image/chaoBot.png");
+  width: 100vw;
+  height: 15vh;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.rodape {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--cor1);
+  height: 40vh;
+  width: 100%;
+}
+
+.rodape > p {
+  display: inline;
+  background-color: var(--cor1);
+  color: var(--cor3);
+  margin: 8px;
+  font-size: 1.5rem;
+}
+
+.nav{
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2%;
+}
+
+@media only screen and (max-width: 668px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+  }
+  .par {
+    margin: 5%;
+  }
+  .imgPag {
+    margin: 0;
+  }
+  .cita {
+    margin: 5%;
+    border: none;
+    font-style: italic;
+  }
+}
