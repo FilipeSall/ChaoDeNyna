@@ -49,20 +49,20 @@
 
 .par {
   display: inline-block;
-  font-size: 2rem;
-  margin: 1% 5%;
+  font-size: 1.5rem;
+  margin: 1% 10%;
   text-align: justify;
 }
 
 .subTitle {
   font-size: 3rem;
-  margin: 1% 5%;
+  margin: 1% 10%;
 }
 
 .cita {
-    margin: 1% 5%;
+    margin: 1% 10%;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   border-left: 4px solid var(--cor2);
   padding: 1%;
 }
