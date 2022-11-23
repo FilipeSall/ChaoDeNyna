@@ -107,7 +107,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4px;
+    padding: 1%;
 }
 
 @media only screen and (max-width: 668px){
