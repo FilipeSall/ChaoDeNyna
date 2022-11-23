@@ -93,9 +93,8 @@ body{
 }
 
 .navSection > p {
-    font-size: 1.4rem;
+    font-size: 22px;
     text-align: justify;
-    background-color: whitesmoke;
     border-radius: 10px;
     background: rgba( 255, 255, 255, 0.5 );
     backdrop-filter: blur( 25px );
