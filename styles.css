@@ -91,6 +91,7 @@ body{
     justify-content: space-between;
     width: 50vw;
     margin: 5% 0 0 22%;
+    max-height: 55vh;
 }
 
 .navSection > p {
