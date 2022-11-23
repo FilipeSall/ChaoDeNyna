@@ -60,11 +60,12 @@
 }
 
 .cita {
-    margin: 1% 15%;
+  margin: 1% 15%;
   display: inline-block;
   font-size: 1.5rem;
   border-left: 4px solid var(--cor2);
   padding: 1%;
+  text-align: justify;
 }
 
 audio {
@@ -89,6 +90,7 @@ audio {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: var(--cor1);
   height: 40vh;
   width: 100%;
