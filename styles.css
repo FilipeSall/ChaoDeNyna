@@ -107,7 +107,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2px;
+    padding: 4px;
 }
 
 .navSection > p{
